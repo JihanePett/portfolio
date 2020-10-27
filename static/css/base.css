@@ -3,7 +3,7 @@ body {
   background: radial-gradient(
     ellipse at center,
     rgba(255, 255, 255, 0.7) 0%,
-    skyblue 100%
+    rgb(235, 180, 135) 100%
   );
 }
 
@@ -15,6 +15,13 @@ body {
   width: 650px;
   height: 650px;
   position: absolute;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #371f13;
+    border-color: #371f13;
+    font-size: 30px;
 }
 
 #about {
