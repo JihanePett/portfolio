@@ -5,11 +5,11 @@
 {% block content %}
 <div id="logo">
 	<div id="logocontainer">
-    <a class="btn btn-primary rounded-circle topics" href="#" role="button" id="about">About</a>
+    <a class="btn btn-primary rounded-circle topics" href="{% url 'about' %}" role="button" id="about">About</a>
     <a class="btn btn-primary rounded-circle topics" href="#" role="button" id="portfolio">Portfolio</a>
     <a class="btn btn-primary rounded-circle topics" href="#" role="button" id="contact">Contact</a>
     <a class="btn btn-primary rounded-circle topics" href="#" role="button" id="dl">DL</a>
-    <a class="btn btn-primary rounded-circle topics" href="#" role="button" id="exposure">Exposure</a>
+    <a class="btn btn-primary rounded-circle topics" href="{% url 'timeline' %}" role="button" id="timeline">Timeline</a>
     <a href="#"><img src="/media/ji-avatar.jpg"  id="jihane"></a>
 	</div>
 </div>
